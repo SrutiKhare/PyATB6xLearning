@@ -6,3 +6,4 @@ print(2+2)
           flush: Literal[False] = False) -> None """
 print("Hello",123,"John")
 print("Hello",123,"John",sep="-")
+print("Hello",123,"John",sep="*",end="_")
